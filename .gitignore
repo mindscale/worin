@@ -1,3 +1,6 @@
 .pytest_cache/
 .cache/
 *.pyc
+dist/
+build/
+worin.egg-info/
