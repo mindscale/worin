@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='worin',
-      version='0.0.2',
+      version='0.1.0',
       description='A Korean POS Tagger using Neural Network',
       author='YU Jaemyoung',
       author_email='yu@mindscale.kr',
@@ -9,11 +9,11 @@ setup(name='worin',
       packages=['worin'],
       package_data={
           '': ['*.txt', '*.md'],
-          'worin': ['*.h5'],
+          'worin': ['*.hdf5'],
       },
       install_requires=[
-          'keras',
-          'h5py',
+          'numpy',
+          'tensorflow',
       ],
       entry_points={
       },
